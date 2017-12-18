@@ -2,7 +2,7 @@
 ====================*/
 'use strict';
 $(window).on('load', function() {
-	$('.loader').delay(400).fadeOut('slow');
+	$('.loader').delay(200).fadeOut('slow');
 	imgIntoBg();
 });
 //jQuery to collapse the navbar on scroll
