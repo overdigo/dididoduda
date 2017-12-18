@@ -2,13 +2,13 @@
 ====================*/
 'use strict';
 $(window).on('load', function() {
-	$('.loader').delay(600).fadeOut('slow');
+	$('.loader').delay(400).fadeOut('slow');
 	imgIntoBg();
 });
 //jQuery to collapse the navbar on scroll
 var newNav = $('nav.clone');
 $(window).on('scroll', function() {
-	if ($(this).scrollTop() > 350) {
+	if ($(this).scrollTop() > 250) {
 		newNav.removeClass('unstick').addClass('stick');
 	} else {
 		newNav.removeClass('stick').addClass('unstick');
